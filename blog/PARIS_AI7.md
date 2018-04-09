@@ -8,9 +8,9 @@ Alexandre Zouaoui
 
 ### Abstract
 
-<p style='text-align: justify;'>This report consists in the hand notes I have taken during the 7th edition of Paris' research and product focused machine learning meetup that was held on the 4th April 2018.
+This report consists in the hand notes I have taken during the 7th edition of Paris' research and product focused machine learning meetup that was held on the 4th April 2018.
 
-This meet-up specifically target **ethics** in AI with topics such as *privacy-by-design*, *security* and *value-alignment*.</p>
+This meet-up specifically target **ethics** in AI with topics such as *privacy-by-design*, *security* and *value-alignment*.
 
 Special mention to [Algolia](https://www.algolia.com/) for hosting the venue in their Paris office - 55 rue d'Amsterdam 75008 Paris.
 
@@ -30,15 +30,18 @@ Witty questions were asked and interesting conversations were held.
 ***
 
 ### Table of contents
-1. [Alexis Lê-Quôc on Anomaly Detection](#Alexis Lê-Quôc on Anomaly Detection)
-2. [Alice Coucke on offline and privacy-by-design voice assistant at Snips](#Alice Coucke on offline and privacy-by-design voice assistant at Snips)
-3. [Andrew Trask on OpenMined](#Andrew Trask on OpenMined)
-4. [Julien Cornebise on AI for Good](#Julien Cornebise on AI for Good)
+1. [Alexis Lê-Quôc on Anomaly Detection](#Alexis)
+2. [Alice Coucke on offline and privacy-by-design voice assistant at Snips](#Alice)
+3. [Andrew Trask on OpenMined](#Andrew)
+4. [Julien Cornebise on AI for Good](#Julien)
 * [Disclaimer](#Disclaimer)
 
 ***
 
+
 ## Alexis Lê-Quôc on Anomaly Detection
+
+<a name="Alexis"></a>
 
 ### Talk
 
@@ -87,6 +90,8 @@ quality requirement.
 ***
 
 ## Alice Coucke on offline and privacy-by-design voice assistant at Snips
+
+<a name="Alice"></a>
 
 ### Talk
 
@@ -173,6 +178,8 @@ N.B. : I did not catch the whole answer.
 
 ## Andrew Trask on OpenMined
 
+<a name="Andrew"></a>
+
 ### Talk 
 
 ###### Opening
@@ -225,6 +232,8 @@ This option is much faster than Homomorphic Encryption.
 
 ## Julien Cornebise on AI for Good
 
+<a name="Julien"></a>
+
 ### Talk
 
 ###### Opening
@@ -245,6 +254,8 @@ However it should be used to solve real-world problems such as those that the NG
 ***
 
 ### Disclaimer
+
+<a name="Disclaimer"></a>
 
 * The reported answers in the *Questions* sub-sections are not an actual words for words transcription. They are my own interpretation of the answers.
 
