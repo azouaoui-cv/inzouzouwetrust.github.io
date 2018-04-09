@@ -8,7 +8,7 @@ Alexandre Zouaoui
 
 ### Abstract
 
-This report consists in the hand notes I have taken during the 7th edition of Paris' research and product focused machine learning meetup that was held on the 4th April 2018.
+This report consists in the hand notes I have taken during the 7th edition of [Paris](https://www.paris.ai/)' research and product focused machine learning meetup that was held on the 4th April 2018.
 
 This meet-up specifically target **ethics** in AI with topics such as *privacy-by-design*, *security* and *value-alignment*.
 
@@ -198,13 +198,13 @@ This practice has two major flaws:
   * Firstly the user **loses control** over its **privacy**.
   * Sensitive products - *such as AI suicide watch* - cannot be developed as it transgresses moral grounds.
 
-2. Train & Predict using the acquired data.
+2. **Train & Predict** using the acquired data.
 
 This practice has again inherent flaws:
-  * It creates a contagious privacy loss as the data acquired from other
+  * It creates a **contagious privacy loss** as the data acquired from other
 users in the training phase might lead to predicting information on
 other users - *e.g. Twitter location from some users can be traced to their pictures so that other users pictures that can be traced to their location although it was not mentioned anywhere on Twitter.*
-  * Models can be biased or unfair.
+  * Models can be **biased** or **unfair**.
 
 ###### Potential solutions
 Potential solutions might come from keeping the data where it is using **Federated Learning**. Federated Learning sends the model to the users and update it with the user data.
