@@ -1,6 +1,6 @@
 # Paris AI #7 Meet-up Summary
 
-Author: Alexandre Zouaoui
+Alexandre Zouaoui
 
 2018.04.09
 
@@ -30,11 +30,11 @@ Witty questions were asked and interesting conversations were held.
 ***
 
 ### Table of contents
-1. [Alexis Lê-Quôc on Anomaly Detection](Alexis Lê-Quôc on Anomaly Detection)
-2. [Alice Coucke on offline and privacy-by-design voice assistant at Snips](Alice Coucke on offline and privacy-by-design voice assistant at Snips)
-3. [Andrew Trask on OpenMined](Andrew Trask on OpenMined)
-4. [Julien Cornebise on AI for Good](Julien Cornebise on AI for Good)
-* [Disclaimer](Disclaimer)
+1. [Alexis Lê-Quôc on Anomaly Detection](# Alexis Lê-Quôc on Anomaly Detection)
+2. [Alice Coucke on offline and privacy-by-design voice assistant at Snips](# Alice Coucke on offline and privacy-by-design voice assistant at Snips)
+3. [Andrew Trask on OpenMined](# Andrew Trask on OpenMined)
+4. [Julien Cornebise on AI for Good](# Julien Cornebise on AI for Good)
+* [Disclaimer](# Disclaimer)
 
 ***
 
@@ -252,7 +252,7 @@ However it should be used to solve real-world problems such as those that the NG
 
 ### Disclaimer
 
-* The reported answers in the *Questions* sub-sections are not actual words for words transcription. They are my own interpretation of the answers.
+* The reported answers in the *Questions* sub-sections are not an actual words for words transcription. They are my own interpretation of the answers.
 
 * If you want to contact me use the website main page.
 
