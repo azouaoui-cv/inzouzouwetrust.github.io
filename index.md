@@ -1,7 +1,7 @@
 # Welcome to my personal GitHub Page
 
 ## Internal links
-* [Blog](./blog/)
+* [Paris AI7 Summary](./blog/PARIS_AI7.md)
 
 
 ## Updates
