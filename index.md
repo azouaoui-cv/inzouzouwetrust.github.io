@@ -6,10 +6,13 @@
 
 ## Updates
 * 2018.04.09 - Page creation
-
+* 2018.04.09 - Uploaded the Paris AI #7 Summary
 
 ## About the author
 * My name is Alexandre [Zouaoui](https://fr.wikipedia.org/wiki/Zouaoua).
 * I am a 23 years old student at [Télécom ParisTech](https://www.telecom-paristech.fr/).
 * My specializations are Data Science and Networks.
 * Currently on a gap year I am looking for a second internship in Data Science from mid-April to mid-September.
+* Contact:
+  * [mail](mailto:inzouzouwetrust@gmail.com)
+  * [Twitter](https://twitter.com/Inzouzouwetrust)
