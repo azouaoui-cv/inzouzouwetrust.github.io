@@ -50,7 +50,7 @@ There are two types of anomaly:
 * **Anomalies** are time-based anomalies.
 
 ###### Anomaly detection algorithms
-Datadog has customers that handle huge quantity of data in *real-time*. Therefore they need anomaly detection algorithms that are robust and scale well.
+Datadog has customers that handle huge quantity of data in *real-time*. Therefore they need anomaly detection algorithms that are *robust* and *scale* well.
 
 They have targeted two main algorithms:
 * **MAD** (Mean Absolute Deviation) is robust as it is insensitive to time shift.
@@ -58,7 +58,7 @@ They have targeted two main algorithms:
 
 Both methods are time-window sensitive. They perform well on well-defined metrics such as latency, throughput and business metrics where seasonality is involved.
 
-Anomaly detection is a hard technical problem. Besides *no learning* can be done as they are *no labels* on the data Datadog handles.
+Anomaly detection is a hard technical problem. Besides *no learning* can be done as there are *no labels* on the data Datadog handles.
 
 ###### Typical use cases
 Typical use cases involve Round-robin web requests as they can easily be modelized as independent statistical processes and GBM (Generic Buffer Management) heap monitoring.
@@ -82,9 +82,11 @@ quality requirement.
 
 ### Questions
 1. What was the metric used on DBSCAN?
+
    *Absolute Error.*
 
 2. Do you have examples of false negatives?
+
    *Earthquakes in Japan made the traffic blow up unexpectedly. We could not forecast this traffic spike.*
 
 ***
@@ -96,22 +98,22 @@ quality requirement.
 ### Talk
 
 ###### Opening thoughs
-Voice interaction on devices has skyrocketed in the United States as 20% of the adult population now uses it. It represents around 50 millions users that have adopted this technology in the last 2 years. Cable television and even the Internet were much slower in comparison.
+Voice interaction on devices has skyrocketed in the United States as 20% of the adult population now uses it. It represents around 50 millions users that have adopted this technology in the last 2 years. Cable television and even the Internet adoptions were much slower in comparison.
 
 ###### Snips in a nutshell
 This however raises the question of data privacy in
-an ever more connected world. Snips therefore decided on creating an offline and on-device voice interaction solution. Two advantages that directly come to mind are:
+an ever more connected world. Snips therefore decided on creating an offline and on-device voice interaction solution. Clear advantages that directly come to mind are:
 * *Privacy-by-design* as the users data does not leave their device.
 * *Resilience* to cloud-outrage.
 * *Speed increase* due to lack of server round trip time.
 
-However these features come at a price of a few constraints, namely:
+However these features come at the price of a few constraints, namely:
 * There is no data transfered from the users devices to a central server in
 order to improve the underlying models.
-* The devices only offer limited CPU 1 resources.
+* The devices only offer limited Central Processing Unit (CPU) resources.
+
 These challenges also raise additional questions:
-* What performance is achievable when using an offline and on-device solu-
-tion?
+* What performance is achievable when using an offline and on-device solution?
 * How can we evaluate the performance if no data is ever send from the
 users to the company developing the models?
 
@@ -130,8 +132,8 @@ This process and the two models associated to it are data and processing
 intensive tasks. The models are also too big.
 
 There are however solutions to overcome these constraints:
-• Models too big can be *compressed* and undergo *features selection*.
-• Models can be *specialized* to the use case they are meant to cover.
+* Models too big can be *compressed* and undergo *features selection*.
+* Models can be *specialized* to the use case they are meant to cover.
 
 As a result the device requires less data that can directly be taken from
 public sources. Models are so small that even a Raspberry Pi can run it - between 100 kbs to a few Mbs.
@@ -140,10 +142,9 @@ public sources. Models are so small that even a Raspberry Pi can run it - betwee
 The NLU unit parses the intent of the order that the device recorded. There are two tasks to be performed:
 * **Intent classification** aims at understanding the intent embedded in the
 vocal order - i.e. *Booking a cab.*
-* **Entity extraction** aims at collecting the surrounding information neces-
-sary to perform the task. - i.e. *At 7 pm on Main Street.*
+* **Entity extraction** aims at collecting the surrounding information necessary to perform the task. - i.e. *At 7 pm on Main Street.*
 
-Snips NLU has open-sourced its software on GitHub as a commitment to its
+Snips NLU has open-sourced its software on [GitHub](https://github.com/snipsco/snips-nlu) as a commitment to its
 transparency and privacy-seeking values.
 
 ###### Model evaluation
@@ -151,7 +152,7 @@ Model evaluation is tricky given that there cannot be direct feedback from the u
 
 Snips team has therefore chosen to benchmark its offline device to other
 competitors such as Google, Amazon and Apple voice assistants. Results show
-that regardless of who comes first the overall accuracy suggests that nobody has cracked the Natural Language Understanding task yet.
+that regardless of who comes first the overall accuracy suggests that nobody has cracked the NLU task yet.
 
 ###### Data constraints
 As no data can be retrieved from the users to feed the giant models on a remote server Snips had to come up with a way to generate training data.
@@ -171,6 +172,7 @@ rely on **Rust** for software portability.
 1. What Neural Network model is Snips using for the wakeword detection?
 
 *Big players have barely started to roll out complex Neural Nets models.*
+
 N.B. : I did not catch the whole answer.
 
 
@@ -221,12 +223,15 @@ This option is much faster than Homomorphic Encryption.
 ### Questions
 
 1. How can you trust other users using Multi-Party Computation?
+
    *It works as long as all the other members do not collude to get your shares- and therefore your data.*
 
 2. How to deal with number fudging? What if users willingly corrupt the data they are sending?
+
    *You can spot corruption very easily as numbers explode.*
 
 3. Does Multi-Party Computation make it difficult to add noise?
+
    *For that very reason, very. It will corrupt the numbers - the weights.*
 
 
@@ -243,7 +248,7 @@ As a research student and after 4 years at Google DeepMind crafting
 ever more complex models Julien grew unsatisfied not to have a positive impact using AI. It is a shame we allocate the mental resources of our most brilliant minds only to empower finance and improve targeted advertisement when we could instead use it to help people in need.
 
 ###### Collaborating with Amnesty International
-Julien spent a year using Deep Learning to decode Darfour - located in South Sudan. He relied on satellite data to train a model to identify South Sudan villages that are composed of characteristic huts called tukuls. Once tukuls were identified the model was used to spot villages that had been burned by the army to scare the villagers.
+Julien spent a year using Deep Learning to decode Darfour - located in South Sudan. He relied on satellite data to train a model to identify South Sudan villages that are composed of characteristic huts called *tukuls*. Once tukuls were identified the model was used to spot villages that had been burned by the army to scare the villagers.
 The goal was to provide evidence to Amnesty International so that they could launch a lawsuit against the South Sudan government.
 
 Along his journey, Julien had to go back to the very fundamental basics
@@ -262,6 +267,6 @@ However it should be used to solve real-world problems such as those that the NG
 
 * The reported answers in the *Questions* sub-sections are not an actual words for words transcription. They are my own interpretation of the answers.
 
-* If you want to contact me use the website main page.
+* I am not aware that I might be transgressing any rules by publishing this report. If that is the case, please inform me using the contact section on the main page.
 
 
