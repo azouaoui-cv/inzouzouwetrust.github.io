@@ -8,9 +8,9 @@ Alexandre Zouaoui
 
 ### Abstract
 
-This report consists in the hand notes I have taken during the 7th edition of Paris' research and product focused machine learning meetup that was held on the 4th April 2018.
+<p style='text-align: justify;'>This report consists in the hand notes I have taken during the 7th edition of Paris' research and product focused machine learning meetup that was held on the 4th April 2018.
 
-This meet-up specifically target **ethics** in AI with topics such as *privacy-by-design*, *security* and *value-alignment*.
+This meet-up specifically target **ethics** in AI with topics such as *privacy-by-design*, *security* and *value-alignment*.</p>
 
 Special mention to [Algolia](https://www.algolia.com/) for hosting the venue in their Paris office - 55 rue d'Amsterdam 75008 Paris.
 
@@ -30,11 +30,11 @@ Witty questions were asked and interesting conversations were held.
 ***
 
 ### Table of contents
-1. [Alexis Lê-Quôc on Anomaly Detection](# Alexis Lê-Quôc on Anomaly Detection)
-2. [Alice Coucke on offline and privacy-by-design voice assistant at Snips](# Alice Coucke on offline and privacy-by-design voice assistant at Snips)
-3. [Andrew Trask on OpenMined](# Andrew Trask on OpenMined)
-4. [Julien Cornebise on AI for Good](# Julien Cornebise on AI for Good)
-* [Disclaimer](# Disclaimer)
+1. [Alexis Lê-Quôc on Anomaly Detection](#Alexis Lê-Quôc on Anomaly Detection)
+2. [Alice Coucke on offline and privacy-by-design voice assistant at Snips](#Alice Coucke on offline and privacy-by-design voice assistant at Snips)
+3. [Andrew Trask on OpenMined](#Andrew Trask on OpenMined)
+4. [Julien Cornebise on AI for Good](#Julien Cornebise on AI for Good)
+* [Disclaimer](#Disclaimer)
 
 ***
 
@@ -61,7 +61,9 @@ Anomaly detection is a hard technical problem. Besides *no learning* can be done
 ###### Typical use cases
 Typical use cases involve Round-robin web requests as they can easily be modelized as independent statistical processes and GBM (Generic Buffer Management) heap monitoring.
 
-For instance, Datadog can provide a forecast of the next 30 minutes at a 10 seconds granularity. Forecast is defined as $$\text{Forecast} = \text{Predicted Trend} + \text{Seasonal pattern} + \text{Tolerance}$$.
+For instance, Datadog can provide a forecast of the next 30 minutes at a 10 seconds granularity. Forecast is defined as:
+
+*Forecast* = *Predicted Trend* + *Seasonal pattern* + *Tolerance*
 
 ###### Closing thoughts
 * For sure any customer dealing with anomaly detection will be scared of
@@ -78,12 +80,9 @@ quality requirement.
 
 ### Questions
 1. What was the metric used on DBSCAN?
-
-*Absolute Error.*
-
+  *Absolute Error.*
 2. Do you have examples of false negatives?
-
-*Earthquakes in Japan made the traffic blow up unexpectedly. We could not forecast this traffic spike.*
+  *Earthquakes in Japan made the traffic blow up unexpectedly. We could not forecast this traffic spike.*
 
 ***
 
@@ -215,16 +214,11 @@ This option is much faster than Homomorphic Encryption.
 ### Questions
 
 1. How can you trust other users using Multi-Party Computation?
-
-*It works as long as all the other members do not collude to get your shares- and therefore your data.*
-
+  *It works as long as all the other members do not collude to get your shares- and therefore your data.*
 2. How to deal with number fudging? What if users willingly corrupt the data they are sending?
-
-*You can spot corruption very easily as numbers explode.*
-
+  *You can spot corruption very easily as numbers explode.*
 3. Does Multi-Party Computation make it difficult to add noise?
-
-*For that very reason, very. It will corrupt the numbers - the weights.*
+  *For that very reason, very. It will corrupt the numbers - the weights.*
 
 
 ***
