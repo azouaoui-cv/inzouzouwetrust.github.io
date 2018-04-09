@@ -38,10 +38,9 @@ Witty questions were asked and interesting conversations were held.
 
 ***
 
-
+<a name="Alexis"></a>
 ## Alexis Lê-Quôc on Anomaly Detection
 
-<a name="Alexis"></a>
 
 ### Talk
 
@@ -83,15 +82,16 @@ quality requirement.
 
 ### Questions
 1. What was the metric used on DBSCAN?
-  *Absolute Error.*
+   *Absolute Error.*
+
 2. Do you have examples of false negatives?
-  *Earthquakes in Japan made the traffic blow up unexpectedly. We could not forecast this traffic spike.*
+   *Earthquakes in Japan made the traffic blow up unexpectedly. We could not forecast this traffic spike.*
 
 ***
 
+<a name="Alice"></a>
 ## Alice Coucke on offline and privacy-by-design voice assistant at Snips
 
-<a name="Alice"></a>
 
 ### Talk
 
@@ -176,9 +176,9 @@ N.B. : I did not catch the whole answer.
 
 ***
 
+<a name="Andrew"></a>
 ## Andrew Trask on OpenMined
 
-<a name="Andrew"></a>
 
 ### Talk 
 
@@ -221,18 +221,20 @@ This option is much faster than Homomorphic Encryption.
 ### Questions
 
 1. How can you trust other users using Multi-Party Computation?
-  *It works as long as all the other members do not collude to get your shares- and therefore your data.*
+   *It works as long as all the other members do not collude to get your shares- and therefore your data.*
+
 2. How to deal with number fudging? What if users willingly corrupt the data they are sending?
-  *You can spot corruption very easily as numbers explode.*
+   *You can spot corruption very easily as numbers explode.*
+
 3. Does Multi-Party Computation make it difficult to add noise?
-  *For that very reason, very. It will corrupt the numbers - the weights.*
+   *For that very reason, very. It will corrupt the numbers - the weights.*
 
 
 ***
 
+<a name="Julien"></a>
 ## Julien Cornebise on AI for Good
 
-<a name="Julien"></a>
 
 ### Talk
 
@@ -253,9 +255,10 @@ However it should be used to solve real-world problems such as those that the NG
 
 ***
 
+<a name="Disclaimer"></a>
 ### Disclaimer
 
-<a name="Disclaimer"></a>
+
 
 * The reported answers in the *Questions* sub-sections are not an actual words for words transcription. They are my own interpretation of the answers.
 
