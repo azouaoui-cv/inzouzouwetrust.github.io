@@ -1,6 +1,8 @@
 theme: jekyll-theme-slate
 title: Zouzou Personal Blog
 description: บล็อกส่วนตัว
+layout: default
+comments: true
 
 
 
