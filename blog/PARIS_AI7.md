@@ -10,14 +10,14 @@ Alexandre Zouaoui
 
 This report consists in the hand notes I have taken during the 7th edition of [Paris](https://www.paris.ai/)' research and product focused machine learning meetup that was held on the 4th April 2018.
 
-This meet-up specifically target **ethics** in AI with topics such as *privacy-by-design*, *security* and *value-alignment*.
+This meet-up specifically targets **ethics** in AI with topics such as *privacy-by-design*, *security* and *value-alignment*.
 
 Special mention to [Algolia](https://www.algolia.com/) for hosting the venue in their Paris office - 55 rue d'Amsterdam 75008 Paris.
 
 Huge thanks to the organizers for setting up such a lovely meet-up ([@LaureAndrieux](https://www.twitter.com/LaureAndrieux), 
 [@raffikamber](https://www.twitter.com/raffikamber}) and [@itsflamant](https://www.twitter.com/itsflamant)).
 
-This meet would not have left the flavor it did if it was not the speakers attending:
+This meet left the flavor it did thanks to the speakers attending:
 * [Alexis Lê-Quôc](https://www.twitter.com/alq) - CTO & Founder at [Datadog](https://www.datadoghq.com/).
 * [Alice Coucke](https://www.twitter.com/alicecoucke) - Senior Machine Learning Scientist at [Snips](https://snips.ai/)
 * [Andrew Trask](https://www.twitter.com/iamtrask) - Creator & Leader of [OpenMined](https://www.twitter.com/OpenMinedOrg)
@@ -50,7 +50,7 @@ There are two types of anomaly:
 * **Anomalies** are time-based anomalies.
 
 ###### Anomaly detection algorithms
-Datadog has customers that handle huge quantity of data in *real-time*. Therefore they need anomaly detection algorithms that are *robust* and *scale* well.
+Datadog has customers that handle huge quantity of data in *real-time*. Therefore they need anomaly detection algorithms that are *robust* and *scale well*.
 
 They have targeted two main algorithms:
 * **MAD** (Mean Absolute Deviation) is robust as it is insensitive to time shift.
@@ -61,7 +61,7 @@ Both methods are time-window sensitive. They perform well on well-defined metric
 Anomaly detection is a hard technical problem. Besides *no learning* can be done as there are *no labels* on the data Datadog handles.
 
 ###### Typical use cases
-Typical use cases involve Round-robin web requests as they can easily be modelized as independent statistical processes and GBM (Generic Buffer Management) heap monitoring.
+Typical use cases involve round-robin web requests as they can easily be modelized as independent statistical processes and GBM (Generic Buffer Management) heap monitoring.
 
 For instance, Datadog can provide a forecast of the next 30 minutes at a 10 seconds granularity. Forecast is defined as:
 
@@ -102,14 +102,13 @@ Voice interaction on devices has skyrocketed in the United States as 20% of the 
 
 ###### Snips in a nutshell
 This however raises the question of data privacy in
-an ever more connected world. Snips therefore decided on creating an offline and on-device voice interaction solution. Clear advantages that directly come to mind are:
+an ever more connected world. Snips therefore decided to create an offline and on-device voice interaction solution. Clear advantages that directly come to mind are:
 * *Privacy-by-design* as the users data does not leave their device.
-* *Resilience* to cloud-outrage.
+* *Resilience* to cloud-outage.
 * *Speed increase* due to lack of server round trip time.
 
 However these features come at the price of a few constraints, namely:
-* There is no data transfered from the users devices to a central server in
-order to improve the underlying models.
+* There is no data transfered from the users devices to a central server that could improve the underlying models.
 * The devices only offer limited Central Processing Unit (CPU) resources.
 
 These challenges also raise additional questions:
@@ -119,10 +118,10 @@ users to the company developing the models?
 
 ###### Voice interaction workflow
 When it comes to voice interaction devices there is a general workflow one encounters:
-1. First the device is waken-up when it detects the wakeword.
-2. Second the speed recognition module records the order and transform it
+1. The device is woken-up when it detects the wakeword.
+2. The speed recognition module records the order and transform it
 into text.
-3. Third the NLU (Natural Language Understanding) unit decyphers the order meaning.
+3. The NLU (Natural Language Understanding) unit decyphers the order meaning.
 4. Eventually an action or a dialog response ensues.
 
 ###### Zoom on the recognition and NLU modules
@@ -151,8 +150,7 @@ transparency and privacy-seeking values.
 Model evaluation is tricky given that there cannot be direct feedback from the users devices.
 
 Snips team has therefore chosen to benchmark its offline device to other
-competitors such as Google, Amazon and Apple voice assistants. Results show
-that regardless of who comes first the overall accuracy suggests that nobody has cracked the NLU task yet.
+competitors such as Google, Amazon and Apple voice assistants. Results regarding the overall accuracy suggests that nobody has cracked the NLU task yet.
 
 ###### Data constraints
 As no data can be retrieved from the users to feed the giant models on a remote server Snips had to come up with a way to generate training data.
@@ -187,7 +185,7 @@ N.B. : I did not catch the whole answer.
 ###### Opening
 OpenMined is an open source community dedicated to build and promote **secure**, **privacy-by-design** and **value-aligned** AI.
 
-Its main activies revolve around **raising awareness** on the ethics in AI and **empower tools** such as *PyTorch*, *Keras* and *Tensorflow* with features that implement the values OpenMined stands for.
+Its main activities revolve around **raising awareness** on the ethics in AI and **empower tools** such as *PyTorch*, *Keras* and *Tensorflow* with features that implement the values OpenMined stands for.
 
 ###### AI Business Model
 The first question that comes to mind is *why has AI not been built with such features by default?* A logical explanation lies in AI
@@ -216,8 +214,7 @@ This limit can be lifted using encryption mechanisms, such as:
 * **Homomorphic Encryption** that enables doing maths with cyphers.
 There are multiple variants of Homomorphic Encryption but it is painfully
 slow.
-* **Multi-Party Computation** that splits a big number into shares to con-
-duct peer-to-peer computation.
+* **Multi-Party Computation** that splits a big number into shares to conduct peer-to-peer computation.
 This option is much faster than Homomorphic Encryption.
 
 ### Questions
@@ -232,7 +229,7 @@ This option is much faster than Homomorphic Encryption.
 
 3. Does Multi-Party Computation make it difficult to add noise?
 
-   *For that very reason, very. It will corrupt the numbers - the weights.*
+   *For that very reason, yes, as it will corrupt the numbers - i.e. the weights.*
 
 
 ***
@@ -248,7 +245,7 @@ As a research student and after 4 years at Google DeepMind crafting
 ever more complex models Julien grew unsatisfied not to have a positive impact using AI. It is a shame we allocate the mental resources of our most brilliant minds only to empower finance and improve targeted advertisement when we could instead use it to help people in need.
 
 ###### Collaborating with Amnesty International
-Julien spent a year using Deep Learning to decode Darfour - located in South Sudan. He relied on satellite data to train a model to identify South Sudan villages that are composed of characteristic huts called *tukuls*. Once tukuls were identified the model was used to spot villages that had been burned by the army to scare the villagers.
+Julien spent a year using Deep Learning to decode Darfour - located in South Sudan. He relied on satellite data to train a model able to identify South Sudan villages that consists in characteristic huts called *tukuls*. Once tukuls were identified the model was used to spot villages that had been burned by the army to scare the villagers.
 The goal was to provide evidence to Amnesty International so that they could launch a lawsuit against the South Sudan government.
 
 Along his journey, Julien had to go back to the very fundamental basics
