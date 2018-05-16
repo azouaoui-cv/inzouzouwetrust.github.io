@@ -1,3 +1,9 @@
+# Github Recommended Settings
+markdown: kramdown
+
+# Blog Settings
+lang: en
+domain: inzouzouwetrust.github.io
 theme: jekyll-theme-slate
 title: Zouzou Personal Blog
 description: บล็อกส่วนตัว
