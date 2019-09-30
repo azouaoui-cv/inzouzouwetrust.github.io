@@ -10,9 +10,9 @@
 
 ## About the author
 * My name is Alexandre [Zouaoui](https://fr.wikipedia.org/wiki/Zouaoua).
-* I am a 23 years old student at [Télécom ParisTech](https://www.telecom-paristech.fr/).
+* I am a 24 years old student at [Télécom ParisTech](https://www.telecom-paristech.fr/).
 * My specializations are Data Science and Networks.
 * Currently on a gap year I am looking for a second internship in Data Science from mid-April to mid-September.
 * Contact:
-  * [mail](mailto:inzouzouwetrust@gmail.com)
+  * mail: inzouzouwetrust\[@\]gmail.com
   * [Twitter](https://twitter.com/Inzouzouwetrust)
