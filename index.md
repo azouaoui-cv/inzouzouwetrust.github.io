@@ -1,4 +1,4 @@
-# Welcome to my personal GitHub Page
+# Welcome 
 
 ## Internal links
 * [Paris AI #7 Summary](./blog/2018-04-09_paris_ai_7.md)
