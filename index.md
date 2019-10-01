@@ -13,5 +13,5 @@
 * I am a 24 years old student at [Télécom ParisTech](https://www.telecom-paristech.fr/).
 * My specializations are Data Science and Networks.
 * Contact:
-  * mail: inzouzouwetrust\[@\]gmail.com
+  * mail: inzouzouwetrust\[@\]gmail\[dot\]com
   * [Twitter](https://twitter.com/Inzouzouwetrust)
