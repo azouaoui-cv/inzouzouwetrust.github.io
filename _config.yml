@@ -1,6 +1,7 @@
 # Github Recommended Settings
 markdown: kramdown
-
+kramdown:
+        math_engine: mathjax
 # Blog Settings
 lang: en
 domain: inzouzouwetrust.github.io
