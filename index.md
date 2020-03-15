@@ -2,7 +2,7 @@
 
 ## Internal links
 * <a href="./whereisgoogle/index.html">Where is Google</a>
-* [Paris AI #7 Summary](./blog/2018-04-09_paris_ai_7.md)
+* [Paris AI #7 Summary](./blog/2018-04-09-paris-ai7.md)
 
 
 ## Updates
